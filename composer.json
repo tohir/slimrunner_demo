@@ -1,0 +1,5 @@
+{
+    "require": {
+        "tohir/slimrunner": "dev-master"
+    }
+}
