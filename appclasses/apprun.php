@@ -17,6 +17,8 @@ class AppRun extends \SlimRunner\SlimRunner
             array('/',              'whatsup',  'home', 'get|post|put|delete|patch'),
             array('/year/:year',    FALSE,      'year', 'get', array('year' => '\d+')),
             array('/redirect',      FALSE,      'redirect'),
+            array('/step1',         FALSE,      'Sample::step1'),
+            array('/step2',         FALSE,      'Sample::step2'),
         ));
     }
 

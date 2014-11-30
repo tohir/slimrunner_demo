@@ -2,7 +2,7 @@
 
 <html lang="en">
 <head>
-    <title>Demo of Phalcon Runner</title>
+    <title>Demo of Slim Runner</title>
 </head>
 <body>
     {$content}
