@@ -1,23 +1,24 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "c3cc70fd18a02abbd7501c8ed9a77bd9",
+    "content-hash": "0a3038df7acc0819d3090ea2263b253f",
     "packages": [
         {
             "name": "slim/slim",
-            "version": "2.4.3",
+            "version": "2.6.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/codeguy/Slim.git",
-                "reference": "4906b77a07c7bd6ff1a99aea903e940a2d4fa106"
+                "url": "https://github.com/slimphp/Slim.git",
+                "reference": "20a02782f76830b67ae56a5c08eb1f563c351a37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeguy/Slim/zipball/4906b77a07c7bd6ff1a99aea903e940a2d4fa106",
-                "reference": "4906b77a07c7bd6ff1a99aea903e940a2d4fa106",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/20a02782f76830b67ae56a5c08eb1f563c351a37",
+                "reference": "20a02782f76830b67ae56a5c08eb1f563c351a37",
                 "shasum": ""
             },
             "require": {
@@ -50,20 +51,20 @@
                 "rest",
                 "router"
             ],
-            "time": "2014-04-05 18:33:59"
+            "time": "2015-03-08 18:41:17"
         },
         {
             "name": "smarty/smarty",
-            "version": "v3.1.21",
+            "version": "v3.1.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarty-php/smarty.git",
-                "reference": "1f878e6d746ecc8ec8d00d9c75044cf7d23ad94a"
+                "reference": "4537d8aae6c4a26f5439bc3a05d3437d25c2c4d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/1f878e6d746ecc8ec8d00d9c75044cf7d23ad94a",
-                "reference": "1f878e6d746ecc8ec8d00d9c75044cf7d23ad94a",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/4537d8aae6c4a26f5439bc3a05d3437d25c2c4d2",
+                "reference": "4537d8aae6c4a26f5439bc3a05d3437d25c2c4d2",
                 "shasum": ""
             },
             "require": {
@@ -79,7 +80,7 @@
                 "classmap": [
                     "libs/Smarty.class.php",
                     "libs/SmartyBC.class.php",
-                    "libs/sysplugins/smarty_security.php"
+                    "libs/sysplugins/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -105,7 +106,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2014-10-31 04:22:20"
+            "time": "2015-06-18 00:55:59"
         },
         {
             "name": "tohir/slimrunner",
@@ -113,12 +114,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tohir/slimrunner.git",
-                "reference": "b5b40c6fc9624a5aecb7f94f393fecfa5ea90a2e"
+                "reference": "903fe4ed2581822b2ae08c33f1d46eace947d2b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tohir/slimrunner/zipball/b5b40c6fc9624a5aecb7f94f393fecfa5ea90a2e",
-                "reference": "b5b40c6fc9624a5aecb7f94f393fecfa5ea90a2e",
+                "url": "https://api.github.com/repos/tohir/slimrunner/zipball/903fe4ed2581822b2ae08c33f1d46eace947d2b5",
+                "reference": "903fe4ed2581822b2ae08c33f1d46eace947d2b5",
                 "shasum": ""
             },
             "require": {
@@ -148,7 +149,7 @@
                 "framework",
                 "slim"
             ],
-            "time": "2014-11-30 19:31:47"
+            "time": "2015-10-21 10:24:35"
         }
     ],
     "packages-dev": [],
@@ -158,6 +159,7 @@
         "tohir/slimrunner": 20
     },
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
 }
