@@ -18,12 +18,12 @@ class AppRun extends \SlimRunner\SlimRunner
             array('/year/:year',    FALSE,      'year', 'get', array('year' => '\d+')),
             array('/redirect',      FALSE,      'redirect'),
             array('/step1',         FALSE,      'Sample::step1'),
-            array('/step2',         FALSE,      'Sample::step2'),
+            array('/step2',         FALSE,      'Sample::step2', 'get|put'),
         ));
     }
 
     
-    public function accesscheck_whatsup()
+    protected function accesscheck_whatsup()
     {
         echo 'Intercepted by: accesscheck_whatsup';
     }
@@ -31,7 +31,12 @@ class AppRun extends \SlimRunner\SlimRunner
     
     protected function home_get() {return 'home_get';}
     protected function home_post() {return 'home_post';}
-    protected function home_put() {return 'home_put';}
+    protected function home_put() {
+        
+        echo $this->inputValue('hello');
+        
+        return 'home_put';
+    }
     protected function home_delete() {return 'home_delete';}
     protected function home_patch() {return 'home_patch';}
     
